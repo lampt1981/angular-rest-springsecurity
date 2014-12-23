@@ -15,7 +15,6 @@ public class News extends Model<News, Long> implements Identity<Long> {
     public static final String CONTENT_FIELD_NAME = "content";
 
     public News() {
-
     }
 
     @DatabaseField(

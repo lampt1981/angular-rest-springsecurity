@@ -36,7 +36,6 @@ public class NewsEntry implements Entity
 		this.date = new Date();
 	}
 
-
 	@JsonView(JsonViews.Admin.class)
 	public Long getId()
 	{
