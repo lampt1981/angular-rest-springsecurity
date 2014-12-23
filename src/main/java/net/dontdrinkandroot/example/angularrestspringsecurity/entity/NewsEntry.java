@@ -19,7 +19,6 @@ import org.codehaus.jackson.map.annotate.JsonView;
 @javax.persistence.Entity
 public class NewsEntry implements Entity
 {
-
 	@Id
 	@GeneratedValue
 	private Long id;
