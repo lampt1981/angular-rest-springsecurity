@@ -22,7 +22,7 @@ public class News extends Model<News, Long> implements Identity<Long> {
             columnName=ID_FIELD_NAME,
             canBeNull=false,
             id=true,
-            indexName="PK_newsentry_id")
+            indexName="PK_news_entry_id")
     @SerializedName(ID_FIELD_NAME)
     @Expose
     private Long id;
