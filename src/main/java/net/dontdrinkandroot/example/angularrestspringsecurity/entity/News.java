@@ -8,7 +8,7 @@ import com.joyaether.datastore.schema.Identity;
 import com.joyaether.datastore.schema.Model;
 
 /**
- * Created by USER on 12/22/14.
+ * Created by lampt on 12/22/14.
  */
 public class News extends Model<News, Long> implements Identity<Long> {
     public static final String ID_FIELD_NAME = "id";
