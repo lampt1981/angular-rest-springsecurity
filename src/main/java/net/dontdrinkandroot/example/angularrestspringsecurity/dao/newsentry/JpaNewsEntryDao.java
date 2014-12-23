@@ -26,7 +26,6 @@ public class JpaNewsEntryDao extends JpaDao<NewsEntry, Long> implements NewsEntr
 		super(NewsEntry.class);
 	}
 
-
 	@Override
 	@Transactional(readOnly = true)
 	public List<NewsEntry> findAll()
