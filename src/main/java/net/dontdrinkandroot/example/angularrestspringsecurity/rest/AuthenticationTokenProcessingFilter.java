@@ -27,7 +27,6 @@ public class AuthenticationTokenProcessingFilter extends GenericFilterBean
 		this.userService = userService;
 	}
 
-
 	@Override
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException,
 			ServletException
