@@ -20,7 +20,6 @@ import org.springframework.transaction.annotation.Transactional;
  */
 public class JpaNewsEntryDao extends JpaDao<NewsEntry, Long> implements NewsEntryDao
 {
-
 	public JpaNewsEntryDao()
 	{
 		super(NewsEntry.class);
